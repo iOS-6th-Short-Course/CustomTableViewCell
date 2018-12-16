@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		070E4AF121C5DD400085745F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070E4AF021C5DD400085745F /* AppDelegate.swift */; };
-		070E4AF321C5DD400085745F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070E4AF221C5DD400085745F /* ViewController.swift */; };
 		070E4AF621C5DD400085745F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070E4AF421C5DD400085745F /* Main.storyboard */; };
 		070E4AF821C5DD420085745F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 070E4AF721C5DD420085745F /* Assets.xcassets */; };
 		070E4AFB21C5DD420085745F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070E4AF921C5DD420085745F /* LaunchScreen.storyboard */; };
+		070E4B0321C5DDF20085745F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070E4B0221C5DDF20085745F /* TableViewController.swift */; };
+		070E4B0521C5E7EA0085745F /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070E4B0421C5E7EA0085745F /* PersonTableViewCell.swift */; };
+		070E4B0821C5ED8F0085745F /* PersonNibTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070E4B0621C5ED8F0085745F /* PersonNibTableViewCell.swift */; };
+		070E4B0921C5ED8F0085745F /* PersonNibTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070E4B0721C5ED8F0085745F /* PersonNibTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		070E4AED21C5DD400085745F /* CustomTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		070E4AF021C5DD400085745F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		070E4AF221C5DD400085745F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		070E4AF521C5DD400085745F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		070E4AF721C5DD420085745F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		070E4AFA21C5DD420085745F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		070E4AFC21C5DD420085745F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		070E4B0221C5DDF20085745F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		070E4B0421C5E7EA0085745F /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		070E4B0621C5ED8F0085745F /* PersonNibTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonNibTableViewCell.swift; sourceTree = "<group>"; };
+		070E4B0721C5ED8F0085745F /* PersonNibTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonNibTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				070E4AF021C5DD400085745F /* AppDelegate.swift */,
-				070E4AF221C5DD400085745F /* ViewController.swift */,
 				070E4AF421C5DD400085745F /* Main.storyboard */,
 				070E4AF721C5DD420085745F /* Assets.xcassets */,
 				070E4AF921C5DD420085745F /* LaunchScreen.storyboard */,
 				070E4AFC21C5DD420085745F /* Info.plist */,
+				070E4B0221C5DDF20085745F /* TableViewController.swift */,
+				070E4B0421C5E7EA0085745F /* PersonTableViewCell.swift */,
+				070E4B0621C5ED8F0085745F /* PersonNibTableViewCell.swift */,
+				070E4B0721C5ED8F0085745F /* PersonNibTableViewCell.xib */,
 			);
 			path = CustomTableViewCell;
 			sourceTree = "<group>";
@@ -124,6 +133,7 @@
 			files = (
 				070E4AFB21C5DD420085745F /* LaunchScreen.storyboard in Resources */,
 				070E4AF821C5DD420085745F /* Assets.xcassets in Resources */,
+				070E4B0921C5ED8F0085745F /* PersonNibTableViewCell.xib in Resources */,
 				070E4AF621C5DD400085745F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				070E4AF321C5DD400085745F /* ViewController.swift in Sources */,
+				070E4B0521C5E7EA0085745F /* PersonTableViewCell.swift in Sources */,
 				070E4AF121C5DD400085745F /* AppDelegate.swift in Sources */,
+				070E4B0821C5ED8F0085745F /* PersonNibTableViewCell.swift in Sources */,
+				070E4B0321C5DDF20085745F /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
